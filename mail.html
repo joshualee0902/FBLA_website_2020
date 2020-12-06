@@ -3,51 +3,50 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <center><title>Contact Form</title></center>
 </head>
 
 <body>
-    <h2 class="content-head is-center">Contact Us</h2>
+    <center><h2 class="content-head is-center">Contact Us</h2></center>
     <aside>
-        <p>
+        <center><p>
             Send me a message!
-        </p>
+        </p></center>
     </aside>
 
    
 
 
-    <center><form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="email@example.com"
-          action="https://script.google.com/macros/s/AKfycbwxBJSDfxPpD34YO0tr6ugUfkz7KRbbFrV0tf3LNGWgd6yiFbw/exec"></center>
+    <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="email@example.com"
+          action="https://script.google.com/macros/s/AKfycbwxBJSDfxPpD34YO0tr6ugUfkz7KRbbFrV0tf3LNGWgd6yiFbw/exec">
 
 
 
 
-        <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="Your Name" />
-
-        <br>
-
-
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
-                  placeholder="Type your message..."></textarea>
+        <center><label for="name">Name: </label></center>
+        <center><input id="name" name="name" placeholder="Your Name" /></center>
 
         <br>
 
-        <label for="email"><em>Your</em> Email Address:</label>
-        <input id="email" name="email" type="email" value=""
-               required placeholder="your.name@email.com" />
+
+        <center><label for="message">Message: </label></center>
+        <center><textarea id="message" name="message" rows="10"
+                  placeholder="Type your message..."></textarea></center>
+
+        <br>
+
+        <center><label for="email"><em>Your</em> Email Address:</label></center>
+        <center><input id="email" name="email" type="email" value=""
+               required placeholder="your.name@email.com" /></center>
 
 
 
-        <button class="button-success pure-button button-xlarge">
+        <center><button class="button-success pure-button button-xlarge">
             <i class="fa fa-paper-plane"></i>&nbsp;Send
-        </button>
+        </button></center>
 
     </form>
 
-    <!-- Customise the Thankyou Message People See when they submit the form: -->
     <div style="display:none;" id="thankyou_message">
         <h2>
             Thank you for your message.
