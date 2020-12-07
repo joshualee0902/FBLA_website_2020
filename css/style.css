@@ -664,6 +664,13 @@ a:hover {
   line-height: 1.5;
 }
 
+.site-blocks-cover h3 {
+  font-size: 25px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1.5;
+}
+
 @media (min-width: 768px) {
   .site-blocks-cover h1 {
     font-size: 50px;
